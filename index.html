@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Лабораторна робота №3. Варіант №0</h1>
+    <img
+      id="image"
+      src="images/1.jpg"
+      alt="Default Image"
+      width="200"
+      height="200"
+    />
+
+    <div class="controls">
+      <div>
+        <label for="imageSelector"
+          >Оберіть зображення:
+          <select id="imageSelector">
+            <option value="images/1.jpg">1.jpg</option>
+            <option value="images/2.jpg">2.jpg</option>
+            <option value="images/3.jpg">3.jpg</option>
+            <option value="images/4.jpg">4.jpg</option>
+            <option value="images/5.jpg">5.jpg</option>
+          </select>
+        </label>
+      </div>
+
+      <label>
+        Ширина (в пікселях):
+        <input type="number" id="width" value="300" />
+      </label>
+      <label>
+        Висота (в пікселях):
+        <input type="number" id="height" value="300" />
+      </label>
+      <label>
+        Товщина рамки (в пікселях):
+        <input type="number" id="borderWidth" value="2" />
+      </label>
+      <label>
+        Альтернативний текст:
+        <input type="text" id="altText" value="main image" />
+      </label>
+      <button id="applyChanges">Зберегти</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

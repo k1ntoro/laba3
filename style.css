@@ -1,0 +1,56 @@
+body {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+h1 {
+  text-align: center;
+}
+
+#image {
+  display: block;
+  margin: 20px auto;
+  border-color: black;
+}
+
+.controls {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+}
+
+.controls label {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+input,
+button {
+  border-radius: 2px;
+  border: none;
+  font-size: 18px;
+}
+
+input {
+  background-color: #dddddd54;
+  width: 80%;
+}
+
+button {
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.521);
+}
+
+select {
+  border: none;
+  background-color: #dddddd54;
+  font-size: 18px;
+}
